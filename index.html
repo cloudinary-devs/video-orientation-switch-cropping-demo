@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video Orientation Switch Demo</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <h1>Video Orientation Switch Demo</h1>
+        <div class="container">
+            <div class="container button-container">
+            <button onclick="toggleOrientation()" class="button">
+              Change Orientation
+            </button>
+          </div>
+          <div class="container video-container">
+            <video id="video1" class='video' controls mute></video>
+          </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="index.js"></script>
+    </body>
+</html
